@@ -161,28 +161,9 @@ class App extends React.Component {
 
   displayAll = (value) => {
 
-    // let allCheck = this.state.allCheck;
-
-    // let totalCheck = [];
-    // totalCheck = this.state.items.filter((item) => item.isChecked)
-
-    // if (value === "all") {
-    //   if (this.state.items.length > totalCheck.length && allCheck) {
-    //     allCheck = false;
-
-    //   } else if (this.state.items.length === totalCheck.length && !allCheck) {
-    //     allCheck = true;
-    //   }
-    // }
-    // if (value === "completed") {
-    //   if (totalCheck.length < this.state.items.length) {
-    //     allCheck = false;
-    //   } else {
-    //     allCheck = true;
-    //   }
-    // }
+    
     this.setState({ display: value,
-      //  allCheck: allCheck
+      
        })
   }
   deleteAll = (e) => {
@@ -229,7 +210,7 @@ class App extends React.Component {
                   <input type="checkbox" className="mainChk" checked={this.state.allCheck} onChange={this.checkedAll}></input>
                   <input className="txtbox" type="textbox" placeholder="Enter item" value={this.state.currentItem.text}
                     onChange={this.inputItem}></input>
-                  {/* <button className="btn" type="submit">Add</button> */}
+                  
                 </div>
               </form>
             </div>
