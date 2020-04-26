@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  color:black;
+  font-size: 50px;
+}
+.app{
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 0px;
+  justify-content: center;
+}
+.todo{
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+.element{
+  display: flex;
+  width: 100%;
+}
+.txtbox{
+  width: 90%;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  outline: none;
+}
+.btn{
+  height: 30px;
+  width: 25%;
+  font-weight: bold;
+  font-size: 20px;
+}
+.listItem{
+  width: 100%;
+}
+.delete{
+  margin: 0;
+  color: black;
+  cursor: pointer;
+}
+.mainChk {
+  margin-top: 5px;
+  width: 6%;
+  height: 25px;
+}
+
+table{
+  border-collapse: collapse;
+  border-bottom: 2px solid black !important;
+}
+.listTr{
+  font-size: 30px;
+  border-bottom: 1px solid black  !important;
+}
+.txtUpdate{
+  width: 98%;
+  height: 30px;
+  font-size: 30px;
+}
+.checkBox{
+  width: 35px;
+  height:25px;
+  outline: none;
+}
+
+.btn{
+  margin-top: 5px;
+  width: 6%;
+  height: 25px;
+}
+.listItems{
+  float: left;
+}
+.deleteTd{
+  width: 35px;
+}
+.listTd{
+  width: 610px;
+}
+
